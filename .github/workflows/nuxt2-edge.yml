@@ -10,7 +10,7 @@ jobs:
     if: github.repository_owner == 'nuxt'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: '2.x'
           fetch-depth: 0 # All history
